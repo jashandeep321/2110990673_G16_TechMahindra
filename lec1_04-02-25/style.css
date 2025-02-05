@@ -1,12 +1,12 @@
 .navbar-container{
-    border: 2px;
+    /* border: 2px; */
 }
 .nav{
     background-color: powderblue;
     list-style-type: none;
     /* justify-content: center; */
     /* height: 5vh; */
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 li{
@@ -19,16 +19,27 @@ li a{
     text-decoration: none;
     color:black ;
 }
+log{
+    text-align: end;
+}
 select{
     text-decoration: none;
 }
 
 .sec{
     display: flex;
+    justify-content: space-evenly;
     border: 2px;
 }
 
 .footer-container{
     background-color: gray;
     
+}
+img{
+    width: 500px;
+}
+.description{
+    width: 30%;
+    margin: auto 0;
 }
