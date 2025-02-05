@@ -34,6 +34,7 @@ select{
 
 .footer-container{
     background-color: gray;
+    display: flex;
     
 }
 img{
