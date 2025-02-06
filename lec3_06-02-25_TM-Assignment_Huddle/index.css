@@ -1,0 +1,176 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --Cyan: hsl(192, 100%, 9%);
+    --Blue: hsl(207, 100%, 98%);
+}
+body{
+    margin: 0px;
+}
+
+
+
+.navbar{
+    padding: 40px;
+}
+.nav-header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title img{
+    height: 35px;
+}
+
+.navbtn{
+    background-color: transparent;
+    border-radius: 25px;
+    border: none;
+    /* box-shadow: 0 3px 16px rgba(0,0,0,0.12); */
+    border: 2px solid var(--pink);
+    padding: 8px 33px;
+    color: var(--pink);
+    font-size: 15px; 
+}
+
+
+/* 
+    banner
+ */
+
+
+.banner-component{
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 90px auto 40px;
+}
+.banner-header{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--Cyan);
+}
+.banner-text{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    font-family: Open Sans;
+    font-size: 22px;
+    color: var(--Cyan);
+  
+}
+.banner-btn{
+    padding: 20px;
+}
+.banner-btn button{
+    border-radius: 50px;
+    background-color: var(--pink);
+    width: 39%;
+    padding: 22px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+}
+
+
+/* 
+    mockscreen
+ */
+
+
+.mock-screen-component {
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.mock-screen-component img{
+width: 100%;
+}
+
+
+/* 
+    NO figures
+ */
+
+
+.figure-component{
+    width: 75%;
+    margin: 40px auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.communities-comp,.message-comp{
+    min-width: 20%;
+    padding: 0 30px;
+    margin: 20px;
+}
+
+.fig-tag{
+    font-size: 90px;
+    text-align: center;
+    margin: 0px;
+    font-family: Poppins;
+}
+.fig-img{
+    text-align: left;
+}
+.para-tag{
+    text-align: center;
+    margin: 0px;
+    font-size: 22px;
+    color: #979ea8;
+    font-family:Open Sans ;
+}
+
+
+/* 
+    wave patter
+ */
+
+
+.wave-component{
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+}
+/* section {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    z-index: 1; */
+
+.wave {
+    position: relative;
+    height: 70px;
+    width: 600px;
+    background: #e0efe3;
+  }
+  
+  .wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 340px;
+    height: 80px;
+    background-color: white;
+    right: -5px;
+    top: 40px;
+  }
+  
+  .wave:after {
+    content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 300px;
+  height: 70px;
+  background-color: #e0efe3;
+  left: 0;
+  top: 27px;
+  }
