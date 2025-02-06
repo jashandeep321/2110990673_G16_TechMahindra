@@ -91,9 +91,11 @@
   }
   .projects-container h1{
     text-align: center;
+    font-family:cursive;
+    color: #ff7800;
   }
   .project{
-    border: 1px solid #0C4F4F;
+    border: 2px solid #0C4F4F;
     border-radius: 30px;
     display: flex;
     width: 50%;
@@ -104,9 +106,43 @@
     width: 50%;
   height: 270px;
   padding: 10px;
-  text-align: center;
+  /* text-align: center; */
+  }
+  .project-info h2:hover{
+    font-size: 25px;
+  }
+  .project-info i{
+    color: #ff7800;
+  }
+  .tech-stack{
+    /* padding: 10px; */
+    display: flex;
+    /* justify-content:space-between; */
+  }
+  .tech-comp{
+    border: 1px solid #ff7800;
+    border-radius: 50px;
+    width: 70px;
+    padding: 2px;
+    background: #ff7800;
+    text-align: center;
+    /* color: #0C4F4F; */
+    margin-right: 10px;
+    font-weight:500;
 
   }
+  .tech-comp:hover{
+    border: 1px solid #ff7800;
+    background: #ff780080;
+    text-align: center;
+    /* color: #073a3a; */
+    /* font-size: 10px; */
+    /* margin-right: 10px; */
+
+  }
+
+
+
   .project-img{
     width: 50%;
   height: 270px;
