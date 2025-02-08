@@ -409,7 +409,7 @@ width: 100%;
     font-family: Open sans;
     /* font-size: 20px; */
     font-weight: 400;
-    width: 6%;
+    width: 46%;
 }
 .footer-contact-component{
     padding: 20px 0;
@@ -461,7 +461,7 @@ border: none;
   font-weight: 600;
 }
 .footer-media{
-    padding: 50px 90px;
+    padding: 50px 11%;
     width: 40%;
     color: var(--Blue);
 }
